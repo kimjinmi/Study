@@ -10,7 +10,7 @@
 
 
 
-![mvc pattern](./repository/mvc.PNG)
+![mvc pattern](https://github.com/kimjinmi/Study/blob/main/repository/mvc.PNG)
 
 
 
