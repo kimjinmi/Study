@@ -103,7 +103,7 @@
     <form method="post" action="join">
     	<input type="text" name="mid" class="form-control" value="${joinForm.mid}">
         <%--Spring MVC를 사용해야지 form --%>
-  <form:errors cssClass="error" path="joinForm.mid"/>
+  <form:errors cssClass="error" path="joinForm.mid"/> 
     ```
   
     
