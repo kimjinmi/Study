@@ -45,7 +45,8 @@
     
     	@Override
     	public boolean supports(Class<?> clazz) {
-    		boolean support = Ch04Member.class.isAssignableFrom(clazz); //Ch04Member클래스(+Member의 자식객체)로 할당할 수 있는가
+    		boolean support = Ch04Member.class.isAssignableFrom(clazz); 
+            //Ch04Member클래스(+Member의 자식객체)로 할당할 수 있는가
     		return support;
     	}
     
@@ -65,19 +66,20 @@
     		}
         }
     }
-    ```
-
-  - Validator 설정
-
+  ```
+  
+- Validator 설정
+  
     ```java
     @PostMapping("/join")
-    						//request범위에 joinForm이름으로 저장됨			error값을 받아옴(BindingResult = error)
+    	//request범위에 joinForm이름으로 저장됨			error값을 받아옴(BindingResult = error)
     	public String join(@ModelAttribute("joinForm") @Valid Ch04Member member, BindingResult bindingResult) {
     		if(bindingResult.hasErrors()) {
     			//에러가 있을시(forward:JSP로 이동)
     			return "ch04/content";
     		} else {
-    			//에러가 없을시(redirect:무조건 서블릿으로 다시 요청 // 위에 있는 content()로 요청처리함)
+    			//에러가 없을시(redirect:무조건 서블릿으로 다시 요청 
+                // 위에 있는 content()로 요청처리함)
     			logger.info("run");
     			logger.info(member.getMid());
     			logger.info(member.getMpassword());
@@ -93,16 +95,16 @@
     @InitBinder("joinForm")
     public void joinForm(WebDataBinder binder) {
     	binder.setValidator(new Ch04MemberJoinFormValidator());
-    }
+  }
     ```
 
   - 에러메세지출력
-
+  
     ```jsp
     <form method="post" action="join">
     	<input type="text" name="mid" class="form-control" value="${joinForm.mid}">
         <%--Spring MVC를 사용해야지 form --%>
-    <form:errors cssClass="error" path="joinForm.mid"/>
+  <form:errors cssClass="error" path="joinForm.mid"/>
     ```
-
+  
     
