@@ -8,4 +8,4 @@
 
 03 [String](https://github.com/kimjinmi/Study/blob/main/Python/03%20String.py) - 문자열, 슬라이싱, 문자열 처리함수, 문자열포맷, 탈출문자
 
-04 data structure - 리스트, 사전, 튜플, 세트
+04 [data structure](https://github.com/kimjinmi/Study/blob/main/Python/04%20data%20structure.py) - 리스트, 사전, 튜플, 세트
