@@ -13,3 +13,5 @@
 05 [control](https://github.com/kimjinmi/Study/blob/main/Python/05%20control.py) - if, for, while, continue와 break, 한줄for
 
 06 [function](https://github.com/kimjinmi/Study/blob/main/Python/06%20function.py) - 전달값과 반환값, 기본값, 키워드, 가변인자, 지역변수와 전역변수
+
+07 [input output](https://github.com/kimjinmi/Study/blob/main/Python/07%20input%20output.py#L80) - 표준입출력, 다양한 출력포맷, 파일입출력, pickle, with
