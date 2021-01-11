@@ -15,3 +15,5 @@
 06 [function](https://github.com/kimjinmi/Study/blob/main/Python/06%20function.py) - 전달값과 반환값, 기본값, 키워드, 가변인자, 지역변수와 전역변수
 
 07 [input output](https://github.com/kimjinmi/Study/blob/main/Python/07%20input%20output.py#L80) - 표준입출력, 다양한 출력포맷, 파일입출력, pickle, with
+
+08 [class](https://github.com/kimjinmi/Study/blob/main/Python/08%20class.py) - 클래스, init, 멤버 변수, 메소드, 상속, 다중상속, 메소드 오버라이딩, pass, super
