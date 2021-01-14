@@ -19,3 +19,6 @@
 08 [class](https://github.com/kimjinmi/Study/blob/main/Python/08%20class.py) - 클래스, init, 멤버 변수, 메소드, 상속, 다중상속, 메소드 오버라이딩, pass, super
 
 09 [exception](https://github.com/kimjinmi/Study/blob/main/Python/09%20exception.py) - 예외처리, 사용자 정의 예외처리, finally
+
+10 [module package](https://github.com/kimjinmi/Study/blob/main/Python/10%20module%20package.py) - 모듈, 패키지, all, 모듈 직접 빌행, 패키지 모듈 위치, pip install, 내장함수, 외장함수
+
