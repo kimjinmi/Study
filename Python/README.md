@@ -22,3 +22,6 @@
 
 10 [module package](https://github.com/kimjinmi/Study/blob/main/Python/10%20module%20package.py) - 모듈, 패키지, all, 모듈 직접 빌행, 패키지 모듈 위치, pip install, 내장함수, 외장함수
 
+**활용**
+
+01 [웹 스크래핑](https://github.com/kimjinmi/Study/tree/main/Python/web_scraping)
