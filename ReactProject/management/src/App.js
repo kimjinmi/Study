@@ -28,8 +28,7 @@ const customers = [{
 function App() {
   return (
    <div>
-     {
-       customers.map(c =>{
+     {customers.map(c =>{
          return(
            <Customer
            key={c.id}
@@ -40,8 +39,7 @@ function App() {
            gender={c.gender}
            job={c.job}/>
          )
-       })
-     }
+       })}
      
     </div>  
   );
