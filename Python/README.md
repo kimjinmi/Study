@@ -29,5 +29,5 @@
 01 [웹 스크래핑](https://github.com/kimjinmi/Study/tree/main/Python/web_scraping)
 
 - BeautifulSoup4 활용
-- selenium 활용
+- selenium 활용(자동화)
 
