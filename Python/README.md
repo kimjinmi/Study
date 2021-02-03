@@ -29,5 +29,14 @@
 01 [웹 스크래핑](https://github.com/kimjinmi/Study/tree/main/Python/web_scraping)
 
 - BeautifulSoup4 활용
-- selenium 활용(자동화)
 
+- selenium 활용
+
+- 프로젝트 01
+
+  > [오늘의 날씨]
+  > 현재 0 ℃  (최저 -8˚ / 최고2˚)        
+  > 오전 강수확률 10% / 오후 강수확률 80%
+  >
+  > 미세먼지 50㎍/㎥보통
+  > 초미세먼지 27㎍/㎥보통
