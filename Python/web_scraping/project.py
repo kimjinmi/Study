@@ -1,3 +1,4 @@
+import re
 import requests
 from bs4 import BeautifulSoup
 
@@ -31,23 +32,24 @@ def scrape_weather(): # [오늘의 날씨]
     print("미세먼지 {}".format(pm10))
     print("초미세먼지 {}".format(pm25))
 
-def scrape_headline_news(): 
-    # [헤드라인]
-    url = "https://news.naver.com"
-    soup = create_soup(url)
-    
-    news_list = soup.find("ul", attrs={"class":"hdline_article_list"}).find_all("li")
-    print("[헤드라인 뉴스]")
-    for index, news in enumerate(news_list):
-        title = news.find("a").get_text().strip()
-        link = url + news.find("a")["href"]
-        print("{}. {}".format(index+1, title))
-        print("  (링크 :{})".format(link))
+def scrape_english():
     print()
-    
-    
-    
+    print("[오늘의 영어 회화]")
+    url = "https://www.hackers.co.kr/?c=s_eng/eng_contents/I_others_english&keywd=haceng_submain_lnb_eng_I_others_english&logger_kw=haceng_submain_lnb_eng_I_others_english"
+    soup = create_soup(url)
+    sentences = soup.find_all("div",attrs={"id":re.compile("^conv_kor_t")})
+    print("(영어 지문)")
+    for sentence in sentences[len(sentences)//2:]:
+        print(sentence.get_text().strip())
+    print()
+    print("(한글 지문)")    
+    for sentence in sentences[:len(sentences)//2]:
+        print(sentence.get_text().strip())
 
+    print()
+
+    
+    
 if __name__ == "__main__":
     scrape_weather()
-    scrape_headline_news()
+    scrape_english()
