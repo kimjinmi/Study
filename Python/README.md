@@ -32,11 +32,29 @@
 
 - selenium 활용
 
-- 프로젝트 01
+- 프로젝트 
 
   > [오늘의 날씨]  
   > 현재 0 ℃  (최저 -8˚ / 최고2˚)        
   > 오전 강수확률 10% / 오후 강수확률 80%   
   >
   > 미세먼지 50㎍/㎥보통  
-  > 초미세먼지 27㎍/㎥보통  
+  > 초미세먼지 27㎍/㎥보통 
+  >
+  > 
+  >
+  > [오늘의 영어 회화]    
+  > (영어 지문)     
+  >
+  > Mrs. Flores: Shouldn't you consider hiring this applicant? He has quite an impressive CV.   
+  > Mr. Grayson: Yes, and he performed very well in the interview.  
+  > Mrs. Flores: Then are you going to hire him?  
+  > Mr. Grayson: Definitely.     
+  >
+  > (한글 지문)   
+  > Mrs. Flores: 이 지원자를 고용할지 생각해 봐야 하지 않나요? 그의 이력서가 매우 인상적이군요.   
+  > Mr. Grayson: 네, 인터뷰 결과도 아주 좋았습니다.   
+  > Mrs. Flores: 그럼 그를 고용할 건가요?   
+  > Mr. Grayson: 물론입니다.
+  
+  
