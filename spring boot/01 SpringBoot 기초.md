@@ -48,3 +48,6 @@
   - 해당 어노테이션 하나가 @EnableAutoConfiguration, @ComponentScan, @Configuration
   - 해당 annotation을 설정한 클래스가 있는 package를 최상위 패키지로 인식하고 ComponentScan을 수행
 
+- spring Boot DevTools : https://hojonglee.github.io/2017-08-01/Developer_tools
+
+- https://m.blog.naver.com/bb_/222141978468
