@@ -41,8 +41,38 @@ public class Foo {
 
         //BinaryOperator
 
+        BinaryOperator<Integer> get100 = (Integer a, Integer b) -> a+b;
+
+        Foo foo = new Foo();
 
 
+    }
 
+    private void run(){
+        int baseNum = 10; //final
+
+        //로컬클래스 : 쉐도잉 O
+        class LocalCass{
+            void printBaseNum(){
+                int baseNum = 11;
+                System.out.println(baseNum); //11
+            }
+        }
+
+        //익명클래스 : 쉐도잉 O
+        Consumer<Integer> integerConsumer = new Consumer<Integer>() {
+            @Override
+            public void accept(Integer baseNum) {
+                System.out.println(baseNum);
+            }
+        };
+        
+        //람다 : 쉐도잉 X
+        IntConsumer printInt = (i) -> {
+            //int baseNum = 11; 컴파일에러
+            System.out.println(i + baseNum);
+        };
+
+        printInt.accept(10);
     }
 }
