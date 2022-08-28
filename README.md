@@ -6,5 +6,5 @@
 
 2. [Python](https://github.com/kimjinmi/Study/tree/main/Python)
 
-3. test1 브런치 추가
-   
+3. test1 브런치 추가11111
+   3. test1 브런치 추가111113. test1 브런치 추가111113. test1 브런치 추가111113. test1 브런치 추가11111
