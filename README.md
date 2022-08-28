@@ -7,4 +7,6 @@
 2. [Python](https://github.com/kimjinmi/Study/tree/main/Python)
 
 3. test1 브런치 추가
+
+4. 깃헙
    
